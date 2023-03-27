@@ -1,0 +1,20 @@
+numpy==1.23.5
+
+# Data-loading/saving related packages
+pandas==1.5.3
+openpyxl==3.1.2 # necessary to use pandas.read_excel
+pyarrow==11.0.0  # necessary to save dataframes as feather files
+
+# Data visualisation/profiling
+ydata-profiling==4.1.1
+matplotlib==3.6.3
+seaborn==0.12.2
+
+# Modeling-related packages
+scikit-learn==1.2.2
+nltk==3.8.1
+umap-learn==0.5.3
+
+# Dev - Notebooks-related packages
+ipykernel==6.21.3
+ipywidgets==8.0.4
